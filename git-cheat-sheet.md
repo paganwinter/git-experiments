@@ -52,7 +52,8 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 - Merge current branch's remote tracking branch into current branch: `git merge` (same as being in develop and issuing `git merge origin/develop`)
 ---
 ## Pull
-- Pull remote changes into : `git pull origin master`
+- Pull (fetch and merge) remote changes into local repo: `git pull origin master`
+- Pull (rebase) remote changes into local repo: `git pull --rebase origin master`
 ---
 ## Push
 - Push commits from local repo to remote: `git push <remote> <branch>`
@@ -88,3 +89,4 @@ eg.
 git checkout master
 git pull
 ```
+- Change remote tracking branch: `git branch --set-upstream-to=<other-branch>`
