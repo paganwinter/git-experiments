@@ -44,23 +44,47 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 - View commit log: `git log`
 - ?: `git show <SHA>`
 ---
+## Fetch
+- `git fetch [remote] [branch]`
+---
 ## Merge
 - Merge branch-1 into current branch: `git merge branch-1`
 - Merge current branch's remote tracking branch into current branch: `git merge` (same as being in develop and issuing `git merge origin/develop`)
 ---
+## Pull
+- Pull remote changes into : `git pull origin master`
+---
+## Push
+- Push commits from local repo to remote: `git push <remote> <branch>`
+- Push commits from local repo to remote, and set remote-tracking branch: `git push --set-upstream <remote> <branch>`
+- Push commits from local repo to remote, when remote-tracking branch is already set: `git push`
+---
 ## Update local repo with remote repo changes
 ```
-git checkout master
-git fetch [<remote>] [<branch>]
-git merge [<remote>/<branch>]
+git checkout <branch>
+git fetch [remote] [branch]
+git merge [remote/branch]
 
 eg.
 git checkout master
 git fetch origin master
 git merge origin/master
 
+eg.
 git checkout master
 git fetch
 git merge
+
+OR
+
+git checkout <branch>
+git pull [remote] [branch]
+
+eg.
+git checkout master
+git pull origin master
+
+eg.
+git checkout master
+git pull
 ```
-- `git pull [<remote>]`
