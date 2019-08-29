@@ -90,3 +90,4 @@ git checkout master
 git pull
 ```
 - Change remote tracking branch: `git branch --set-upstream-to=<other-branch>`
+- See remote tracking branch: `git bracnh -vv`
