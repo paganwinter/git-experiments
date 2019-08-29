@@ -90,6 +90,7 @@ git checkout master
 git pull
 ```
 ## Remote Tracking
-- Change remote tracking branch: `git branch --set-upstream-to=<other-branch>`
+- Change remote tracking branch: `git branch [branch] --set-upstream-to <other-branch>`
+- Change remote tracking branch (shorhand): `git branch [branch] -u <other-branch>`
 - See remote tracking branch: `git branch -vv`
 - Remove tracking: `git branch --unset-upstream`
