@@ -1,5 +1,5 @@
-https://education.github.com/git-cheat-sheet-education.pdf
-https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+- https://education.github.com/git-cheat-sheet-education.pdf
+- https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 
 ---
 
