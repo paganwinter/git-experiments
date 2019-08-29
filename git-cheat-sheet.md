@@ -40,8 +40,9 @@
 - Push commit to remote: `git push <remote> <branch>`
 - Push commit to default remote/branch: `git push`
 ---
-
+## Log / Graph
 - View commit log: `git log`
+- View graph: `git log --graph --oneline --all`
 - ?: `git show <SHA>`
 ---
 ## Fetch
