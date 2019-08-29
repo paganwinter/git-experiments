@@ -100,4 +100,5 @@ git pull
 - Create tag (lightweight): `git tag <tag-name>`
 - Create tag (annotated): `git tag <tag-name> -m "<message>"`
 - Push tag to remote: `git push --tags`
+- Push tag to remote along with commit: `git push --follow-tags`
 
