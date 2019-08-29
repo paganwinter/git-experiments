@@ -53,8 +53,8 @@
 - Merge current branch's remote tracking branch into current branch: `git merge` (same as being in develop and issuing `git merge origin/develop`)
 ---
 ## Pull
-- Pull (fetch and merge) remote changes into local repo: `git pull origin master`
-- Pull (rebase) remote changes into local repo: `git pull --rebase origin master`
+- Pull (fetch and merge) remote changes into local repo: `git pull [<remote>] [<branch>]`
+- Pull (rebase) remote changes into local repo: `git pull --rebase [<remote>] [<branch>]`
 ---
 ## Push
 - Push commits from local repo to remote: `git push <remote> <branch>`
