@@ -95,3 +95,9 @@ git pull
 - Change remote tracking branch (shorhand): `git branch [branch] -u <other-branch>`
 - See remote tracking branch: `git branch -vv`
 - Remove tracking: `git branch --unset-upstream`
+---
+## Tags
+- Create tag (lightweight): `git tag <tag-name>`
+- Create tag (annotated): `git tag <tag-name> -m "<message>"`
+- Push tag to remote: `git push --tags`
+
