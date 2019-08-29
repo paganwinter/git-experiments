@@ -54,6 +54,11 @@ https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
 ## Pull
 - Pull remote changes into : `git pull origin master`
 ---
+## Push
+- Push commits from local repo to remote: `git push <remote> <branch>`
+- Push commits from local repo to remote, and set remote-tracking branch: `git push --set-upstream <remote> <branch>`
+- Push commits from local repo to remote, when remote-tracking branch is already set: `git push`
+---
 ## Update local repo with remote repo changes
 ```
 git checkout <branch>
