@@ -89,5 +89,7 @@ eg.
 git checkout master
 git pull
 ```
+## Remote Tracking
 - Change remote tracking branch: `git branch --set-upstream-to=<other-branch>`
-- See remote tracking branch: `git bracnh -vv`
+- See remote tracking branch: `git branch -vv`
+- Remove tracking: `git branch --unset-upstream`
